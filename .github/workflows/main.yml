@@ -21,7 +21,7 @@ jobs:
       - name: Run Tests        
         run: |          
           source venv/bin/activate          
-          pytes
+          pytest
           
       - name: Deploy Application
         run: echo "Deploying application..
